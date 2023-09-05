@@ -1,21 +1,20 @@
-.searchBoxContainer{
+.searchBoxContainer {
   height: 70vh;
-  background-image:url(https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1450&q=80);
+  background-image: url(https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1450&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.searchbox{
+.searchbox {
   border-radius: 10px;
-  padding: 1rem ;
+  padding: 1rem;
   outline: none;
   width: 50%;
-  border:none;
+  border: none;
   font-size: 1.5rem;
   font-weight: bold;
 }
-

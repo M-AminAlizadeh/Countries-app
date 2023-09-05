@@ -1,5 +1,3 @@
-const Country = ()=>{
-  return "Country";
-}
+const Country = () => 'Country';
 
 export default Country;

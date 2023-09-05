@@ -1,11 +1,9 @@
-import styles from "./searchbox.module.css";
+import styles from './searchbox.module.css';
 
-const Searchbox = ()=>{
-  return (
+const Searchbox = () => (
   <section className={styles.searchBoxContainer}>
-    <input type="text" className={styles.searchbox} placeholder="Enter a country name..."/>
+    <input type="text" className={styles.searchbox} placeholder="Enter a country name..." />
   </section>
-  )
-}
+);
 
 export default Searchbox;

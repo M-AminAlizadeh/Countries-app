@@ -1,13 +1,10 @@
 import './index.css';
-import Home from "./pages/Home";
+import Home from './pages/Home';
 
-const App = () => {
-
-return (
+const App = () => (
   <div className="appContainer">
-    <Home/>
+    <Home />
   </div>
-)
-}
+);
 
 export default App;

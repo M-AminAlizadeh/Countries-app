@@ -33,8 +33,18 @@
 
 .commonName,
 .capitalName,
-.population {
+.population,
+.link {
   font-size: 1.2rem;
   font-weight: 300;
   padding: 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: red;
 }

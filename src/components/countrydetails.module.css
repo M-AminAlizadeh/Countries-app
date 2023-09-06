@@ -3,21 +3,21 @@
   margin: 1rem auto;
 }
 
-.flag{
+.flag {
   width: 100%;
   margin: 0;
 }
 
-.tableHead{
+.tableHead {
   font-size: 2rem;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
 }
 
-.countryDetailsTable{
+.countryDetailsTable {
   width: 100%;
 }
 
-.label{
+.label {
   text-align: center;
   font-size: 1.5rem;
 }
@@ -27,13 +27,13 @@
   text-align: center;
   font-size: 1.5rem;
   color: var(--secondary-color);
-  text-transform: Capitalize;
+  text-transform: capitalize;
 }
 
 .tableBody tr:nth-child(odd) {
-  background-color:var(--primary-dark-color);
+  background-color: var(--primary-dark-color);
 }
 
 .tableBody tr:nth-child(even) {
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
 }

@@ -1,0 +1,40 @@
+.container {
+  background-color: var(--primary-color);
+}
+
+.header {
+  font-size: 3rem;
+  width: 90%;
+  margin: auto;
+}
+
+.countriesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.countryContainer {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: var(--secondary-color);
+}
+
+.flag {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.commonName,
+.capitalName,
+.population {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0.5rem;
+}

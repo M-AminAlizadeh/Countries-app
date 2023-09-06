@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { fetchCountries } from '../redux/countries/countriesSlice';
 import styles from './countries.module.css';
 
@@ -40,7 +41,7 @@ function Countries() {
               {' '}
               {country.population}
             </span>
-
+            <Link to={`/country/${country.name.common}`} className={styles.link}>More info</Link>
           </div>
         ))}
       </div>

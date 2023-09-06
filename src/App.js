@@ -1,11 +1,16 @@
-import './index.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Country from './pages/Country';
+import './index.css';
 
 function App() {
   return (
-    <div className="appContainer">
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/country/:id" element={<Country />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

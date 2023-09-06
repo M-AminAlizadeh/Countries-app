@@ -1,6 +1,6 @@
 import styles from './navbar.module.css';
 
-const Navbar = () => {
+function Navbar() {
   const date = new Date();
   return (
     <nav>
@@ -15,6 +15,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;

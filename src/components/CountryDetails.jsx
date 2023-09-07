@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { fetchCountries } from '../redux/countries/countriesSlice';
 import styles from './countrydetails.module.css';
 
@@ -25,6 +25,9 @@ function CountryDetails() {
 
   return (
     <div className={styles.countryDetailsContainer}>
+      <Link to="/">
+        <img src="https://img.icons8.com/ios/30/circled-left-2.png" alt="circled-left-2" title="turn back" />
+      </Link>
       <h1>Country Details</h1>
       <img src={theCountry.flags.svg} alt="country flag" className={styles.flag} />
       <table className={styles.countryDetailsTable}>

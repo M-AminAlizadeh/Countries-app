@@ -77,6 +77,8 @@ see more details about that country
 
 To get a local copy up and running, follow these steps.
 
+Please first check this video most of your questions answeres are here :[Video link](https://www.loom.com/share/ee7caa14dfad4eab812c4c4d107cdedb?sid=47e92359-0bf4-400c-bc3d-46ba2ddd7f2c)
+
 ### Prerequisites
 
 Ensure you have:
@@ -107,7 +109,6 @@ Example command:
   cd my-project
   npm i
 ```
--
 
 ### Usage
 

@@ -77,7 +77,7 @@ see more details about that country
 
 To get a local copy up and running, follow these steps.
 
-Please first check this video most of your questions answeres are here :[Video link](https://www.loom.com/share/ee7caa14dfad4eab812c4c4d107cdedb?sid=47e92359-0bf4-400c-bc3d-46ba2ddd7f2c)
+Please first check this video most of your questions answeres are here :[Video link](https://www.loom.com/share/47e0b6081ffd4b5a96b3f279a5b4cdd8?sid=9d28fd47-d62e-417d-94e7-1d86d91f94c9)
 
 ### Prerequisites
 

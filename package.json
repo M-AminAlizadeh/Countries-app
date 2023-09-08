@@ -1,7 +1,6 @@
 {
   "name": "countries",
   "version": "0.1.0",
-  "homepage": "https://m-aminalizadeh.github.io/CountriesOfTheWorld",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -16,8 +15,6 @@
     "redux-thunk": "^2.4.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,7 +41,6 @@
   "devDependencies": {
     "eslint": "^8.48.0",
     "eslint-config-airbnb": "^19.0.4",
-    "gh-pages": "^6.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",

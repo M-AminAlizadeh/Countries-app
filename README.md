@@ -67,7 +67,7 @@ see more details about that country
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://m-aminalizadeh.github.io/CountriesOfTheWorld/)
+- [Live Demo Link](https://countries-of-the-world-git-dev-m-aminalizadeh.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
